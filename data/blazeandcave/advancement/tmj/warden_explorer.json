@@ -1,0 +1,74 @@
+{
+  "rewards": {
+    "function": "bc_rewards:tmj/warden_explorer"
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:warden_spawn_egg"
+    },
+    "frame": "goal",
+    "title": {
+      "color": "#0A494F",
+      "translate": "Warden explorer"
+    },
+    "description": {
+      "color": "#0A494F",
+      "translate": "Kill a warden in every dimensions. Now it's getting though"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:tmj/elder_guardian_of_dimensions",
+  "criteria": {
+    "etape1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "warden",
+              "location": {
+                "dimension": "the_end"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "etape2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "warden",
+              "location": {
+                "dimension": "the_nether"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "etape3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "warden",
+              "location": {
+                "dimension": "overworld"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
