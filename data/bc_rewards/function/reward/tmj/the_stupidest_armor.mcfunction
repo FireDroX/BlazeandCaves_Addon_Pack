@@ -1,0 +1,3 @@
+give @s enchanted_book[custom_name='{"text":"Best Enchanted Book Ever","color":"#638ba6","bold":true,"italic":false}',lore=['{"translate":"You\'re kinda dumb...","color":"#638ba6"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"The Stupidest Armor","color":"red","italic":false}'],stored_enchantments={levels:{'protection':4,'binding_curse':1,'unbreaking':3,'mending':1,'vanishing_curse':1}}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"Best Enchanted Book Ever"}]

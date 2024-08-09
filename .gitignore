@@ -1,0 +1,23 @@
+# Ignore everything inside the data/ directory
+/data/*
+!/data/blazeandcave/
+/data/blazeandcave/*
+!/data/blazeandcave/advancement/
+/data/blazeandcave/advancement/*
+!/data/blazeandcave/advancement/tmj/
+
+# Ignore everything inside bc_rewards but unignore specific paths
+!/data/bc_rewards/
+/data/bc_rewards/*
+!/data/bc_rewards/function/
+/data/bc_rewards/function/*
+!/data/bc_rewards/function/tmj/
+!/data/bc_rewards/function/exp/
+/data/bc_rewards/function/exp/*
+!/data/bc_rewards/function/exp/tmj/
+!/data/bc_rewards/function/reward/
+/data/bc_rewards/function/reward/*
+!/data/bc_rewards/function/reward/tmj/
+!/data/bc_rewards/function/msg/
+/data/bc_rewards/function/msg/*
+!/data/bc_rewards/function/msg/tmj/
