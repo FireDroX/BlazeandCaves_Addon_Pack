@@ -1,6 +1,6 @@
 {
   "rewards": {
-    "function": "bc_rewards:tmj/the_stupidest_tools"
+    "function": "bc_rewards:pusha/the_stupidest_tools"
   },
   "display": {
     "icon": {
@@ -16,7 +16,7 @@
     },
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:tmj/complete_waste",
+  "parent": "blazeandcave:pusha/complete_waste",
   "criteria": {
     "hoe": {
       "trigger": "minecraft:inventory_changed",

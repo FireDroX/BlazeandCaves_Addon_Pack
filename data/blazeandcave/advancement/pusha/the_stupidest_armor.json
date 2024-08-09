@@ -1,6 +1,6 @@
 {
   "rewards": {
-    "function": "bc_rewards:tmj/the_stupidest_armor"
+    "function": "bc_rewards:pusha/the_stupidest_armor"
   },
   "display": {
     "icon": {
@@ -21,7 +21,7 @@
     "announce_to_chat": true,
     "frame": "goal"
   },
-  "parent": "blazeandcave:tmj/complete_waste",
+  "parent": "blazeandcave:pusha/complete_waste",
   "criteria": {
     "leather_armor": {
       "trigger": "minecraft:inventory_changed",
