@@ -1,0 +1,73 @@
+{
+  "rewards": {
+    "function": "bc_rewards:tmj/elder_guardian_of_dimensions"
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:elder_guardian_spawn_egg"
+    },
+    "title": {
+      "color": "#c5c2a4",
+      "translate": "Elder guardian of dimensions"
+    },
+    "description": {
+      "color": "#c5c2a4",
+      "translate": "Kill an elder guardian in every dimensions"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:tmj/destroyer_of_worlds",
+  "criteria": {
+    "etape1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "elder_guardian",
+              "location": {
+                "dimension": "the_end"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "etape2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "elder_guardian",
+              "location": {
+                "dimension": "the_nether"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "etape3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "elder_guardian",
+              "location": {
+                "dimension": "overworld"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
