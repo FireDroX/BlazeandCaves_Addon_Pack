@@ -1,0 +1,73 @@
+{
+  "rewards": {
+    "function": "bc_rewards:tmj/destroyer_of_worlds"
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_spawn_egg"
+    },
+    "title": {
+      "color": "#313131",
+      "translate": "Destroyer of worlds"
+    },
+    "description": {
+      "color": "#313131",
+      "translate": "Kill a wither in every dimension. This one's a warm up"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:tmj/root",
+  "criteria": {
+    "etape1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "wither",
+              "location": {
+                "dimension": "the_end"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "etape2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "wither",
+              "location": {
+                "dimension": "the_nether"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "etape3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "wither",
+              "location": {
+                "dimension": "overworld"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

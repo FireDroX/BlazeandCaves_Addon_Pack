@@ -1,0 +1,74 @@
+{
+  "rewards": {
+    "function": "bc_rewards:tmj/you_can_start_crying"
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_dragon_spawn_egg"
+    },
+    "frame": "challenge",
+    "title": {
+      "color": "#451c75",
+      "translate": "You can start crying"
+    },
+    "description": {
+      "color": "#451c75",
+      "translate": "Kill an ender dragon in every dimensions. You may want to open youtube for that one"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:tmj/warden_explorer",
+  "criteria": {
+    "etape1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "ender_dragon",
+              "location": {
+                "dimension": "the_end"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "etape2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "ender_dragon",
+              "location": {
+                "dimension": "the_nether"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "etape3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "ender_dragon",
+              "location": {
+                "dimension": "overworld"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
