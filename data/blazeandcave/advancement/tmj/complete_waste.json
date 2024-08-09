@@ -18,8 +18,7 @@
       "color": "#B9F2FF",
       "translate": "Get a full set of Leather Armor with Silence trim equiped with Netherite as an ingredient"
     },
-    "announce_to_chat": true,
-    "frame": "goal"
+    "announce_to_chat": true
   },
   "parent": "blazeandcave:tmj/root",
   "criteria": {

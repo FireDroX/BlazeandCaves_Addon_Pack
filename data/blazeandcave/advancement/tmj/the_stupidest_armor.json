@@ -19,7 +19,7 @@
       "translate": "Equip a full set of Leather armor with Protection IV, Unbreaking III, Mending, Curse of Binding and Curse of Vanishing, while having the Silence armor trim equipped with Netherite ingredient on each of them"
     },
     "announce_to_chat": true,
-    "frame": "challenge"
+    "frame": "goal"
   },
   "parent": "blazeandcave:tmj/complete_waste",
   "criteria": {

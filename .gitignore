@@ -1,4 +1,6 @@
 # Ignore everything inside the data/ directory
+pack.mcmeta
+pack.png
 /data/*
 !/data/blazeandcave/
 /data/blazeandcave/*

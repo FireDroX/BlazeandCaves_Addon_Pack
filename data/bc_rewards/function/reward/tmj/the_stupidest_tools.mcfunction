@@ -1,0 +1,3 @@
+give @s wooden_hoe[unbreakable={},custom_name='{"text":"That girl was a HOE","color":"#638ba6","bold":true,"italic":false}',lore=['{"translate":"That\'s Serious Dedication...","color":"#638ba6"}','{"text":" "}','{"translate":"Awarded for achieving","color":"gray"}','{"translate":"The Stupidest Tools","color":"red","italic":false}'],stored_enchantments={levels:{'efficiency':5}}] 1
+
+tellraw @s [{"text":" +1 ","color":"gold"},{"translate":"That girl was a HOE"}]
