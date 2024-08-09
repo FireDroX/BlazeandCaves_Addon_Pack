@@ -1,0 +1,41 @@
+{
+  "rewards": {
+    "function": "bc_rewards:tmj/a_broke_player"
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_shrieker"
+    },
+    "title": {
+      "color": "#11767D",
+      "translate": "A broke player"
+    },
+    "description": {
+      "color": "#0A494F",
+      "translate": "Kill a warden with nothing in your inventory, including armor slots and offhand"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:tmj/a_brave_player",
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "source_entity": {
+            "nbt": "{Inventory:[]}"
+          }
+        },
+        "tags": [
+          {
+            "id": "minecraft:is_player_attack",
+            "expected": true
+          }
+        ],
+        "entity": {
+          "type": "minecraft:warden"
+        }
+      }
+    }
+  }
+}
