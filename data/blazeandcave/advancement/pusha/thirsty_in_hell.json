@@ -21,7 +21,7 @@
     }
   },
   "rewards": {
-    "function": "bc_rewards:tmj/thirsty_in_hell"
+    "function": "bc_rewards:pusha/thirsty_in_hell"
   },
   "display": {
     "icon": {
@@ -36,5 +36,5 @@
     },
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:tmj/root"
+  "parent": "blazeandcave:pusha/root"
 }

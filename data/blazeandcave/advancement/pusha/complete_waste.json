@@ -1,6 +1,6 @@
 {
   "rewards": {
-    "function": "bc_rewards:tmj/complete_waste"
+    "function": "bc_rewards:pusha/complete_waste"
   },
   "display": {
     "icon": {
@@ -20,7 +20,7 @@
     },
     "announce_to_chat": true
   },
-  "parent": "blazeandcave:tmj/root",
+  "parent": "blazeandcave:pusha/root",
   "criteria": {
     "leather_armor": {
       "trigger": "minecraft:inventory_changed",
