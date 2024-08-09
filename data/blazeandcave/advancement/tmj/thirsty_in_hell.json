@@ -1,19 +1,19 @@
 {
   "criteria": {
     "use_water_bucket_in_nether": {
-      "trigger": "minecraft:item_used_on_block",
+      "trigger": "minecraft:placed_block",
       "conditions": {
         "location": [
-          {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-              "items": ["minecraft:water_bucket"]
-            }
-          },
           {
             "condition": "minecraft:location_check",
             "predicate": {
               "dimension": "the_nether"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["minecraft:water_bucket"]
             }
           }
         ]
