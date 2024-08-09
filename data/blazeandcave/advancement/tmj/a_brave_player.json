@@ -1,0 +1,47 @@
+{
+  "rewards": {
+    "function": "bc_rewards:tmj/a_brave_player"
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk"
+    },
+    "title": {
+      "color": "#11767D",
+      "translate": "A brave player"
+    },
+    "description": {
+      "color": "#0A494F",
+      "translate": "Kill a warden with... Your hand ?"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:tmj/root",
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "source_entity": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:stick"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          {
+            "id": "minecraft:is_player_attack",
+            "expected": true
+          }
+        ],
+        "entity": {
+          "type": "minecraft:warden"
+        }
+      }
+    }
+  }
+}
