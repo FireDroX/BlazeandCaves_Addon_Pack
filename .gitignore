@@ -8,6 +8,10 @@ pack.png
 /data/blazeandcave/advancement/*
 !/data/blazeandcave/advancement/tmj/
 !/data/blazeandcave/advancement/pusha/
+!/data/blazeandcave/advancement/bacap/
+/data/blazeandcave/advancement/bacap/*
+!/data/blazeandcave/advancement/bacap/tmj_milestone.json
+!/data/blazeandcave/advancement/bacap/pusha_milestone.json
 
 # Ignore everything inside bc_rewards but unignore specific paths
 !/data/bc_rewards/
@@ -28,3 +32,7 @@ pack.png
 /data/bc_rewards/function/msg/*
 !/data/bc_rewards/function/msg/tmj/
 !/data/bc_rewards/function/msg/pusha/
+!/data/bc_rewards/function/bacap/
+/data/bc_rewards/function/bacap/*
+!/data/bc_rewards/function/bacap/tmj_milestone.mcfunction
+!/data/bc_rewards/function/bacap/pusha_milestone.mcfunction
