@@ -10,17 +10,23 @@ This addon extends the functionality of the BlazeandCaves Advancements Pack by i
 
 - **New Advancements:** Additional advancements designed to challenge and reward players.
 
-| Pusha's Adventure     | Description |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| `Complete Waste`      | Wear a full set of Leather Armor with Netherite Silence Trim on all of them.                                                          |
-| `The Stupidest Armor` | Wear the `Complete Waste` armor with Protection IV, Unbreaking III, Mending, Curse of Binding and Curse of Vanishing on each of them. |
-| `The Stupidest Tools` | Have a full set of Wooden Tools with Efficiency V, Unbreaking III Mending and Curse of Vanishing on each of them.                     |
-| `Thirsty in Hell`     | Try to use a water bucket in the Nether.                                                                                              |
+| Pusha's Adventure       | Description                                                                                                                           |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `Complete Waste`        | Wear a full set of Leather Armor with Netherite Silence Trim on all of them.                                                          |
+| `The Stupidest Armor`   | Wear the `Complete Waste` armor with Protection IV, Unbreaking III, Mending, Curse of Binding and Curse of Vanishing on each of them. |
+| `The Stupidest Tools`   | Have a full set of Wooden Tools with Efficiency V, Unbreaking III Mending and Curse of Vanishing on each of them.                     |
+| `Thirsty in Hell`       | Try to use a water bucket in the Nether.                                                                                              |
+| `Was that a Firework ?` | Die by an entity when you're above Y : 319                                                                                            |
 
-| TMJ's Advancement |  Description |
-| --- | --- |
-| `A Brave Player` | Kill a Warden with... Your hand ? |
-| `A Broke Player` | Kill a Warden (again) with Nothing in your Inventory, Armor and OffHand |
+| TMJ's Advancement                | Description                                                                          |
+| -------------------------------- | ------------------------------------------------------------------------------------ |
+| `A Brave Player`                 | Kill a Warden with... Your hand ?                                                    |
+| `A Broke Player`                 | Kill a Warden (again) with Nothing in your Inventory, Armor and OffHand.             |
+| `Destroyer of Worlds`            | Kill a Wither in every Dimension. This one's a warm up.                              |
+| `Elder Guardian of Dimenensions` | Kill an Elder Guardian in every Dimensions.                                          |
+| `The rarest item`                | Obtain a stack of Dragon Egg                                                         |
+| `Warden Explorer`                | Kill a Warden in every Dimensions. Now it's getting though.                          |
+| `You can start Crying now`       | Kill an Ender Dragon in every Dimensions. You may want to open YouTube for that one. |
 
 ## Installation
 

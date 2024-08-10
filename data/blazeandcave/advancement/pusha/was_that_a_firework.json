@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "die_at_height_limit": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 319
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:pusha/was_that_a_firework"
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_rocket"
+    },
+    "title": {
+      "translate": "Was that a Firework ?"
+    },
+    "description": {
+      "color": "#B9F2FF",
+      "translate": "Oh no it's just your stuff, nevermind."
+    },
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:pusha/root"
+}
