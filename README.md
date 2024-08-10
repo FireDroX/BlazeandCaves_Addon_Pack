@@ -58,6 +58,12 @@ Make sure to always back up your world before installing or updating custom pack
 
 Contributions are welcome! If you have any suggestions, bug reports, or improvements, feel free to submit a pull request or open an issue on GitHub.
 
+### Top contributors:
+
+<a href="https://github.com/FireDroX/BlazeandCaves_Addon_Pack/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=FireDroX/BlazeandCaves_Addon_Pack" alt="contrib.rocks image" />
+</a>
+
 ## Disclaimer
 
 This addon is **not** a copy of the BlazeandCaves Advancements Pack. It only includes new files and does not redistribute any content from the original pack.
