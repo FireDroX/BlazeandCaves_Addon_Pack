@@ -1,0 +1,64 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:lingering_potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"potion": "minecraft:harming"
+				},
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": {
+			"translate": "This can't be that hard..."
+		},
+		"description": {
+			"color": "dark_purple",
+			"translate": "Kill a warden, and ender dragon, a wither, an elder guardian and a ghast with a single arrow in the nether above the height limit"
+		},
+		"hidden": true,
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:tmj/you_can_start_crying",
+	"rewards": {
+		"function": "bc_rewards:tmj/this_cant_be_that_hard"
+	},
+	"criteria": {
+		"arbalistic": {
+			"trigger": "minecraft:killed_by_crossbow",
+			"conditions": {
+				"victims": [
+					{
+						"type": "minecraft:warden"
+					},
+					{
+						"type": "minecraft:ender_dragon"
+					},
+					{
+						"type": "minecraft:elder_guardian"
+					},
+					{
+						"type": "minecraft:wither"
+					},
+					{
+						"type": "minecraft:ghast"
+					}
+				]
+			},
+			"location": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"dimension": "the_nether",
+						"position": {
+							"y": {
+								"min": 319
+							}
+						}
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:netherite_sword"
+		},
+		"title": {
+			"translate": "*Chuckles* I'm in danger !",
+			"color": "dark_purple"
+		},
+		"description": {
+			"color": "green",
+			"translate": "Break a netherite sword while fighting a warden"
+		},
+		"announce_to_chat": true,
+		"frame": "goal"
+	},
+	"parent": "blazeandcave:pusha/root",
+	"rewards": {
+		"function": "bc_rewards:pusha/chuckles_im_in_danger"
+	},		
+	"criteria": {
+		"break_nether_sword": {
+			"trigger": "minecraft:item_durability_changed",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:netherite_sword"
+					]
+				},
+				"durability": {
+					"max": 0
+				},
+				"damage": {
+					"source_entity": {
+						"nbt": "{Inventory:[]}"
+					}
+				},
+				"tags": [
+					{
+						"id": "minecraft:is_player_attack",
+						"expected": true
+					}
+				],
+				"entity": {
+					"type": "minecraft:warden"
+				}
+			}
+		}
+	}
+}

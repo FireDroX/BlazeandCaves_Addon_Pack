@@ -17,7 +17,7 @@
     "title": { "translate": "TMJ's Advancements" },
     "description": {
       "color": "#FF0000",
-      "translate": "Huh... That might be hard... Like a lot... (and Dumb)"
+      "translate": "If you clicked this button, you're here to suffer. Welcome to your doom"
     },
     "background": "minecraft:textures/block/crying_obsidian.png",
     "show_toast": false,
