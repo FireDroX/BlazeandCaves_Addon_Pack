@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:apple"
+    },
+    "title": { "translate": "Pusha's Adventure" },
+    "description": {
+      "color": "#dd96ca",
+      "translate": "Don't worry, It's just really stupid."
+    },
+    "background": "minecraft:textures/block/pink_concrete.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "rewards": {
+    "function": "bc_rewards:pusha/root"
+  },
+  "criteria": {
+    "location": {
+      "trigger": "minecraft:location"
+    }
+  }
+}
