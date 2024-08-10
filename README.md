@@ -22,11 +22,11 @@ This addon extends the functionality of the BlazeandCaves Advancements Pack by i
 | -------------------------------- | ------------------------------------------------------------------------------------ |
 | `A Brave Player`                 | Kill a Warden with... Your hand ?                                                    |
 | `A Broke Player`                 | Kill a Warden (again) with Nothing in your Inventory, Armor and OffHand.             |
-| `Destroyer of Worlds`            | Kill a wither in every dimension. This one's a warm up.                              |
-| `Elder Guardian of Dimenensions` | Kill an elder guardian in every dimensions.                                          |
+| `Destroyer of Worlds`            | Kill a Wither in every Dimension. This one's a warm up.                              |
+| `Elder Guardian of Dimenensions` | Kill an Elder Guardian in every Dimensions.                                          |
 | `The rarest item`                | Obtain a stack of Dragon Egg                                                         |
-| `Warden Explorer`                | Kill a warden in every dimensions. Now it's getting though.                          |
-| `You can start Crying now`       | Kill an ender dragon in every dimensions. You may want to open youtube for that one. |
+| `Warden Explorer`                | Kill a Warden in every Dimensions. Now it's getting though.                          |
+| `You can start Crying now`       | Kill an Ender Dragon in every Dimensions. You may want to open YouTube for that one. |
 
 ## Installation
 
