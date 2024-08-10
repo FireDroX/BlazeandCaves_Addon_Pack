@@ -45,20 +45,20 @@
 						"type": "minecraft:ghast"
 					}
 				]
-			}
-		},
-		"location": [
-			{
-				"condition": "minecraft:location_check",
-				"predicate": {
-					"dimension": "the_nether",
-					"position": {
-						"y": {
-							"min": 319
+			},
+			"location": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"dimension": "the_nether",
+						"position": {
+							"y": {
+								"min": 319
+							}
 						}
 					}
 				}
-			}
-		]
+			]
+		}
 	}
 }
