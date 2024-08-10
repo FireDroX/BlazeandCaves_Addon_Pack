@@ -1,113 +1,113 @@
 {
-	"display": {
-		"icon": {
-			"id": "minecraft:apple"
-		},
-		"title": {
-			"translate": "Pusha Milestone"
-		},
-		"description": {
-			"color": "yellow",
-			"translate": "Complete every advancement in the Pusha's Adventure tab"
-		},
-		"announce_to_chat": true,
-		"frame": "goal"
-	},
-	"parent": "blazeandcave:bacap/end_milestone",
-	"rewards": {
-		"function": "bc_rewards:bacap/pusha_milestone"
-	},
-	"criteria": {
-		"chuckles_im_in_danger": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:pusha/chuckles_im_in_danger": true
-						}
-					}
-				}
-			}
-		},
-		"complete_waste": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:pusha/complete_waste": true
-						}
-					}
-				}
-			}
-		},
-		"give_me_that_back": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:pusha/give_me_that_back": true
-						}
-					}
-				}
-			}
-		},
-		"the_stupidest_armor": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:pusha/the_stupidest_armor": true
-						}
-					}
-				}
-			}
-		},
-		"the_stupidest_tools": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:pusha/the_stupidest_tools": true
-						}
-					}
-				}
-			}
-		},
-		"thirsty_in_hell": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:pusha/thirsty_in_hell": true
-						}
-					}
-				}
-			}
-		},
-		"was_that_a_firework": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:pusha/was_that_a_firework": true
-						}
-					}
-				}
-			}
-		}
-	}
+  "display": {
+    "icon": {
+      "id": "minecraft:apple"
+    },
+    "title": {
+      "translate": "Pusha's Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every advancement in the Pusha's Adventure tab"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:bacap/time_to_farm",
+  "rewards": {
+    "function": "bc_rewards:bacap/pusha_milestone"
+  },
+  "criteria": {
+    "chuckles_im_in_danger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:pusha/chuckles_im_in_danger": true
+            }
+          }
+        }
+      }
+    },
+    "complete_waste": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:pusha/complete_waste": true
+            }
+          }
+        }
+      }
+    },
+    "give_me_that_back": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:pusha/give_me_that_back": true
+            }
+          }
+        }
+      }
+    },
+    "the_stupidest_armor": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:pusha/the_stupidest_armor": true
+            }
+          }
+        }
+      }
+    },
+    "the_stupidest_tools": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:pusha/the_stupidest_tools": true
+            }
+          }
+        }
+      }
+    },
+    "thirsty_in_hell": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:pusha/thirsty_in_hell": true
+            }
+          }
+        }
+      }
+    },
+    "was_that_a_firework": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:pusha/was_that_a_firework": true
+            }
+          }
+        }
+      }
+    }
+  }
 }

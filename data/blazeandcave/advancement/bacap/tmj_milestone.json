@@ -1,124 +1,124 @@
 {
-	"display": {
-		"icon": {
-			"id": "minecraft:player_head",
-			"components": {
-				"profile": {
-					"id": [ 1531857479, -78233159, -1681038604, 1859460671 ],
-					"properties": [
-						{
-							"name": "textures",
-							"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNmMzY3NGIyZGRjMGVmN2MzOWUzYjljNmI1ODY3N2RlNWNmMzc3ZDJlYjA3M2YyZjNmZTUwOTE5YjFjYTRjOSJ9fX0="
-						}
-					]
-				}
-			}
-		},
-		"title": {
-			"translate": "TMJ Milestone"
-		},
-		"description": {
-			"color": "yellow",
-			"translate": "Complete every advancement in the TMJ tab"
-		},
-		"announce_to_chat": true,
-		"frame": "goal"
-	},
-	"parent": "blazeandcave:bacap/challenges_milestone",
-	"rewards": {
-		"function": "bc_rewards:bacap/tmj_milestone"
-	},
-	"criteria": {
-		"a_brave_player": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:tmj/a_brave_player": true
-						}
-					}
-				}
-			}
-		},
-		"a_broke_player": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:tmj/a_broke_player": true
-						}
-					}
-				}
-			}
-		},
-		"destroyer_of_worlds": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:tmj/destroyer_of_worlds": true
-						}
-					}
-				}
-			}
-		},
-		"elder_guardian_of_dimensions": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:tmj/elder_guardian_of_dimensions": true
-						}
-					}
-				}
-			}
-		},
-		"the_rarest_item": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:tmj/the_rarest_item": true
-						}
-					}
-				}
-			}
-		},
-		"warden_explorer": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:tmj/warden_explorer": true
-						}
-					}
-				}
-			}
-		},
-		"you_can_start_crying": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"blazeandcave:tmj/you_can_start_crying": true
-						}
-					}
-				}
-			}
-		}
-	}
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "id": [1531857479, -78233159, -1681038604, 1859460671],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNmMzY3NGIyZGRjMGVmN2MzOWUzYjljNmI1ODY3N2RlNWNmMzc3ZDJlYjA3M2YyZjNmZTUwOTE5YjFjYTRjOSJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "TMJ's Milestone"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every advancement in the TMJ tab"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:bacap/pusha_milestone",
+  "rewards": {
+    "function": "bc_rewards:bacap/tmj_milestone"
+  },
+  "criteria": {
+    "a_brave_player": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:tmj/a_brave_player": true
+            }
+          }
+        }
+      }
+    },
+    "a_broke_player": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:tmj/a_broke_player": true
+            }
+          }
+        }
+      }
+    },
+    "destroyer_of_worlds": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:tmj/destroyer_of_worlds": true
+            }
+          }
+        }
+      }
+    },
+    "elder_guardian_of_dimensions": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:tmj/elder_guardian_of_dimensions": true
+            }
+          }
+        }
+      }
+    },
+    "the_rarest_item": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:tmj/the_rarest_item": true
+            }
+          }
+        }
+      }
+    },
+    "warden_explorer": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:tmj/warden_explorer": true
+            }
+          }
+        }
+      }
+    },
+    "you_can_start_crying": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:tmj/you_can_start_crying": true
+            }
+          }
+        }
+      }
+    }
+  }
 }
