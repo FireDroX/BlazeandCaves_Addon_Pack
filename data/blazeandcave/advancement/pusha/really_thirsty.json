@@ -1,0 +1,168 @@
+{
+  "criteria": {
+    "use_water_bucket_in_nether_wastes": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:nether_wastes"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "the_nether"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["minecraft:water_bucket"]
+            }
+          }
+        ]
+      }
+    },
+    "use_water_bucket_in_crimson_forest": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:crimson_forest"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "the_nether"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["minecraft:water_bucket"]
+            }
+          }
+        ]
+      }
+    },
+    "use_water_bucket_in_warped_forest": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:warped_forest"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "the_nether",
+              "location": {
+                "biomes": "minecraft:warped_forest"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["minecraft:water_bucket"]
+            }
+          }
+        ]
+      }
+    },
+    "use_water_bucket_in_soul_sand_walley": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:soul_sand_valley"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "the_nether",
+              "location": {
+                "biomes": "minecraft:soul_sand_walley"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["minecraft:water_bucket"]
+            }
+          }
+        ]
+      }
+    },
+    "use_water_bucket_in_basalt_deltas": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "minecraft:basalt_deltas"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "the_nether"
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["minecraft:water_bucket"]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:pusha/really_thirsty"
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": {
+      "translate": "Really Thirsty"
+    },
+    "description": {
+      "color": "#B9F2FF",
+      "translate": "You really tried to use a Water Bucket in EVERY Nether Biomes..."
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:pusha/thirsty_in_hell"
+}
