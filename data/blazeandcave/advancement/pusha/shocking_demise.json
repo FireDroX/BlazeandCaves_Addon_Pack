@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "die_by_charged_creeper": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:creeper",
+          "nbt": "{powered:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:pusha/shocking_demise"
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:creeper_head",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "Shocking Demise"
+    },
+    "description": {
+      "color": "#B9F2FF",
+      "translate": "Did you at least get the mob head ?"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:pusha/was_that_a_firework"
+}

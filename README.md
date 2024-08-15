@@ -20,6 +20,7 @@ This addon extends the functionality of the BlazeandCaves Advancements Pack by i
 | `*chuckles* I'm in danger !` | Break a Netherite Sword while fighting a Warden                                                                                                                              |
 | `Give me that back !`        | Kill a Wither Skeleton with full Protection IV, Unbreaking III and Mending Diamond armor as well as an Unbreaking III, Mending, Sharpness V and Fire aspect II Diamond sword |
 | `Really Thirsty`             | You really tried to use a Water Bucket in EVERY Nether Biomes...                                                                                                             |
+| `Shocking Demise`            | Did you at least get the mob head ?                                                                                                                                          |
 
 | TMJ's Advancement                | Description                                                                                                                       |
 | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
