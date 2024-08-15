@@ -1,157 +1,151 @@
 {
-	"display": {
-		"icon": {
-			"id": "minecraft:wither_skeleton_skull"
-		},
-		"title": {"translate":"Give me that back !"},
-		"description": {
-			"color": "dark_purple",
-			"translate": "Kill a wither skeleton with full protection 4, unbreaking 3 and mending diamond armor as well as as an unbreaking 3, mending, sharpness 5 and fire aspect 2 diamond sword while your inventory is empty"
-		},
-		"announce_to_chat": true,
-		"frame": "challenge"
-	},
-	"parent": "blazeandcave:pusha/root",
-	"rewards": {
-		"function": "bc_rewards:pusha/give_me_that_back"
-	},		
-	"criteria": {
-		"zombie": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"killing_blow": {
-					"source_entity": {
-						"nbt": "{Inventory:[]}"
-					}
-				},
-				"entity": {
-					"type": "wither_skeleton",
-					"equipment": {
-						"head": {
-							"items": [ "minecraft:diamond_helmet" ],
-							"predicates": {
-								"enchantments": [
-									{
-										"enchantments": "minecraft:mending"
-									},
-									{
-										"enchantments": "minecraft:protection",
-										"levels": {
-											"min": 4
-										}
-									},
-									{
-										"enchantments": "minecraft:unbreaking",
-										"levels": {
-											"min": 3
-										}
-									}
-								]
-							}
-						},
-						"chest": {
-							"items": [ "minecraft:diamond_chestplate" ],
-							"predicates": {
-								"enchantments": [
-									{
-										"enchantments": "minecraft:mending"
-									},
-									{
-										"enchantments": "minecraft:protection",
-										"levels": {
-											"min": 4
-										}
-									},
-									{
-										"enchantments": "minecraft:unbreaking",
-										"levels": {
-											"min": 3
-										}
-									}
-								]
-							}
-						},
-						"legs": {
-							"items": [
-								"minecraft:diamond_leggings"
-							],
-							"predicates": {
-								"enchantments": [
-									{
-										"enchantments": "minecraft:mending"
-									},
-									{
-										"enchantments": "minecraft:protection",
-										"levels": {
-											"min": 4
-										}
-									},
-									{
-										"enchantments": "minecraft:unbreaking",
-										"levels": {
-											"min": 3
-										}
-									}
-								]
-							}
-						},
-						"feet": {
-							"items": [
-								"minecraft:diamond_boots"
-							],
-							"predicates": {
-								"enchantments": [
-									{
-										"enchantments": "minecraft:mending"
-									},
-									{
-										"enchantments": "minecraft:protection",
-										"levels": {
-											"min": 4
-										}
-									},
-									{
-										"enchantments": "minecraft:unbreaking",
-										"levels": {
-											"min": 3
-										}
-									}
-								]
-							}
-						},
-						"mainhand": {
-							"items": [
-								"minecraft:diamond_sword"
-							],
-							"predicates": {
-								"enchantments": [
-									{
-										"enchantments": "minecraft:mending"
-									},
-									{
-										"enchantments": "minecraft:sharpness",
-										"levels": {
-											"min": 5
-										}
-									},
-									{
-										"enchantments": "minecraft:fire_aspect",
-										"levels": {
-											"min": 2
-										}
-									},
-									{
-										"enchantments": "minecraft:unbreaking",
-										"levels": {
-											"min": 3
-										}
-									}
-								]
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_skeleton_skull"
+    },
+    "title": { "translate": "Give me that back !" },
+    "description": {
+      "color": "dark_purple",
+      "translate": "Kill a wither skeleton with full protection 4, unbreaking 3 and mending diamond armor as well as as an unbreaking 3, mending, sharpness 5 and fire aspect 2 diamond sword while your inventory is empty"
+    },
+    "announce_to_chat": true,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:pusha/chuckles_im_in_danger",
+  "rewards": {
+    "function": "bc_rewards:pusha/give_me_that_back"
+  },
+  "criteria": {
+    "zombie": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "source_entity": {
+            "nbt": "{Inventory:[]}"
+          }
+        },
+        "entity": {
+          "type": "wither_skeleton",
+          "equipment": {
+            "head": {
+              "items": ["minecraft:diamond_helmet"],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:mending"
+                  },
+                  {
+                    "enchantments": "minecraft:protection",
+                    "levels": {
+                      "min": 4
+                    }
+                  },
+                  {
+                    "enchantments": "minecraft:unbreaking",
+                    "levels": {
+                      "min": 3
+                    }
+                  }
+                ]
+              }
+            },
+            "chest": {
+              "items": ["minecraft:diamond_chestplate"],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:mending"
+                  },
+                  {
+                    "enchantments": "minecraft:protection",
+                    "levels": {
+                      "min": 4
+                    }
+                  },
+                  {
+                    "enchantments": "minecraft:unbreaking",
+                    "levels": {
+                      "min": 3
+                    }
+                  }
+                ]
+              }
+            },
+            "legs": {
+              "items": ["minecraft:diamond_leggings"],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:mending"
+                  },
+                  {
+                    "enchantments": "minecraft:protection",
+                    "levels": {
+                      "min": 4
+                    }
+                  },
+                  {
+                    "enchantments": "minecraft:unbreaking",
+                    "levels": {
+                      "min": 3
+                    }
+                  }
+                ]
+              }
+            },
+            "feet": {
+              "items": ["minecraft:diamond_boots"],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:mending"
+                  },
+                  {
+                    "enchantments": "minecraft:protection",
+                    "levels": {
+                      "min": 4
+                    }
+                  },
+                  {
+                    "enchantments": "minecraft:unbreaking",
+                    "levels": {
+                      "min": 3
+                    }
+                  }
+                ]
+              }
+            },
+            "mainhand": {
+              "items": ["minecraft:diamond_sword"],
+              "predicates": {
+                "enchantments": [
+                  {
+                    "enchantments": "minecraft:mending"
+                  },
+                  {
+                    "enchantments": "minecraft:sharpness",
+                    "levels": {
+                      "min": 5
+                    }
+                  },
+                  {
+                    "enchantments": "minecraft:fire_aspect",
+                    "levels": {
+                      "min": 2
+                    }
+                  },
+                  {
+                    "enchantments": "minecraft:unbreaking",
+                    "levels": {
+                      "min": 3
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

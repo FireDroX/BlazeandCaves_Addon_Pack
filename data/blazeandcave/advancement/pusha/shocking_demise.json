@@ -15,9 +15,18 @@
   },
   "display": {
     "icon": {
-      "id": "minecraft:creeper_head",
+      "id": "minecraft:player_head",
       "components": {
-        "minecraft:enchantment_glint_override": true
+        "minecraft:enchantment_glint_override": true,
+        "profile": {
+          "id": [-114192879, -1597551363, -2050413784, 1390520496],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJjZWIzOWRkNGRlMjRhN2FkZmUyOTFhM2EwY2ZjN2NmNGY2NDVkZTU5YjYwM2ZjZmUwNmM2YjVhMDZlMjYifX19"
+            }
+          ]
+        }
       }
     },
     "title": {
