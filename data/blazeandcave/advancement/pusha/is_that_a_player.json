@@ -1,0 +1,55 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head"
+    },
+    "title": {
+      "translate": "Is that a player ?"
+    },
+    "description": {
+      "translate": "Place on an Armor Stand : a Player Head, 3 Pieces of Netherite Armor, a Netherite Sword and a Shield ?"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "rewards": {
+    "function": "bc_rewards:pusha/is_that_a_player"
+  },
+  "parent": "blazeandcave:pusha/shocking_demise",
+  "criteria": {
+    "is_that_a_player": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:armor_stand",
+              "equipment": {
+                "head": {
+                  "items": ["minecraft:player_head"]
+                },
+                "chest": {
+                  "items": ["minecraft:netherite_chestplate"]
+                },
+                "legs": {
+                  "items": ["minecraft:netherite_leggings"]
+                },
+                "feet": {
+                  "items": ["minecraft:netherite_boots"]
+                },
+                "mainhand": {
+                  "items": ["minecraft:netherite_sword"]
+                },
+                "offhand": {
+                  "items": ["minecraft:shield"]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

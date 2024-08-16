@@ -22,6 +22,7 @@ This addon extends the functionality of the BlazeandCaves Advancements Pack by i
 | `Really Thirsty`             | You really tried to use a Water Bucket in EVERY Nether Biomes...                                                                                                             |
 | `Shocking Demise`            | Did you at least get the mob head ?                                                                                                                                          |
 | `Bling Bling`                | Place the same Armor (`The Stupidest Armor`) on an Armor Stand... Hope you did not actually wear it.                                                                         |
+| `Is that a player ?`         | Place on an Armor Stand : a Player Head, 3 Pieces of Netherite Armor, a Netherite Sword and a Shield ?                                                                       |
 
 | TMJ's Advancement                | Description                                                                                                                       |
 | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |

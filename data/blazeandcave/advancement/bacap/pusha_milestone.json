@@ -147,6 +147,19 @@
           }
         }
       }
+    },
+    "is_that_a_player": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:pusha/is_that_a_player": true
+            }
+          }
+        }
+      }
     }
   }
 }
