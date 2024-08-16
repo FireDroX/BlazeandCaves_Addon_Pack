@@ -108,6 +108,45 @@
           }
         }
       }
+    },
+    "really_thirsty": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:pusha/really_thirsty": true
+            }
+          }
+        }
+      }
+    },
+    "shocking_demise": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:pusha/shocking_demise": true
+            }
+          }
+        }
+      }
+    },
+    "bling_bling": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:pusha/bling_bling": true
+            }
+          }
+        }
+      }
     }
   }
 }

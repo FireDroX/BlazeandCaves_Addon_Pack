@@ -12,6 +12,7 @@ pack.png
 /data/blazeandcave/advancement/bacap/*
 !/data/blazeandcave/advancement/bacap/tmj_milestone.json
 !/data/blazeandcave/advancement/bacap/pusha_milestone.json
+!/data/blazeandcave/advancement/bacap/hidden_firedrox_milestone.json
 
 # Ignore everything inside bc_rewards but unignore specific paths
 !/data/bc_rewards/
@@ -28,11 +29,22 @@ pack.png
 /data/bc_rewards/function/reward/*
 !/data/bc_rewards/function/reward/tmj/
 !/data/bc_rewards/function/reward/pusha/
+!/data/bc_rewards/function/reward/bacap/
+/data/bc_rewards/function/reward/bacap/*
+!/data/bc_rewards/function/reward/bacap/tmj_milestone.mcfunction
+!/data/bc_rewards/function/reward/bacap/pusha_milestone.mcfunction
+!/data/bc_rewards/function/reward/bacap/hidden_firedrox_milestone.mcfunction
 !/data/bc_rewards/function/msg/
 /data/bc_rewards/function/msg/*
 !/data/bc_rewards/function/msg/tmj/
 !/data/bc_rewards/function/msg/pusha/
+!/data/bc_rewards/function/msg/bacap/
+/data/bc_rewards/function/msg/bacap/*
+!/data/bc_rewards/function/msg/bacap/tmj_milestone.mcfunction
+!/data/bc_rewards/function/msg/bacap/pusha_milestone.mcfunction
+!/data/bc_rewards/function/msg/bacap/hidden_firedrox_milestone.mcfunction
 !/data/bc_rewards/function/bacap/
 /data/bc_rewards/function/bacap/*
 !/data/bc_rewards/function/bacap/tmj_milestone.mcfunction
 !/data/bc_rewards/function/bacap/pusha_milestone.mcfunction
+!/data/bc_rewards/function/bacap/hidden_firedrox_milestone.mcfunction

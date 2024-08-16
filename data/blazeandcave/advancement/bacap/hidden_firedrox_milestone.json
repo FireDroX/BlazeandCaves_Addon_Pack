@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "profile": {
+          "id": [-1431736645, -1719317012, -1396017633, -448510069],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTcyMzgxNTUyOTU0OCwKICAicHJvZmlsZUlkIiA6ICJhYWE5NmViYjk5ODU0ZGVjYWNjYTc2MWZlNTQ0NDc4YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlRHJvWCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84M2NmODZmZmNiNWI0ZTQ1YWRmNjM2ZTQ5YmM3MzEwOGZhOGIzYzM2N2Y5NDg1NWM0MDczYTIxNzEwYWE0NWQ1IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I0MGE5MmUzMmI1N2ZkNzMyYTAwZmMzMjVlN2FmYjAwYTdjYTc0OTM2YWQ1MGQ4ZTg2MDE1MmU0ODJjZmJkZSIKICAgIH0KICB9Cn0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "Completely Crazy"
+    },
+    "description": {
+      "color": "yellow",
+      "translate": "Complete every advancement in the Addon Pack"
+    },
+    "announce_to_chat": true,
+    "hidden": true,
+    "frame": "challenge"
+  },
+  "parent": "blazeandcave:bacap/tmj_milestone",
+  "rewards": {
+    "function": "bc_rewards:bacap/hidden_firedrox_milestone"
+  },
+  "criteria": {
+    "pusha": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:bacap/pusha_milestone": true
+            }
+          }
+        }
+      }
+    },
+    "tmj": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:bacap/tmj_milestone": true
+            }
+          }
+        }
+      }
+    }
+  }
+}
