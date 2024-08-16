@@ -21,6 +21,7 @@ This addon extends the functionality of the BlazeandCaves Advancements Pack by i
 | `Give me that back !`        | Kill a Wither Skeleton with full Protection IV, Unbreaking III and Mending Diamond armor as well as an Unbreaking III, Mending, Sharpness V and Fire aspect II Diamond sword |
 | `Really Thirsty`             | You really tried to use a Water Bucket in EVERY Nether Biomes...                                                                                                             |
 | `Shocking Demise`            | Did you at least get the mob head ?                                                                                                                                          |
+| `Bling Bling`                | Place the same Armor (`The Stupidest Armor`) on an Armor Stand... Hope you did not actually wear it.                                                                         |
 
 | TMJ's Advancement                | Description                                                                                                                       |
 | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
