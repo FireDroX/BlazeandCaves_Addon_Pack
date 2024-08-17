@@ -160,6 +160,19 @@
           }
         }
       }
+    },
+    "thats_gonna_last_2_hours": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:pusha/thats_gonna_last_2_hours": true
+            }
+          }
+        }
+      }
     }
   }
 }

@@ -10,19 +10,20 @@ This addon extends the functionality of the BlazeandCaves Advancements Pack by i
 
 - **New Advancements:** Additional advancements designed to challenge and reward players.
 
-| Pusha's Adventure            | Description                                                                                                                                                                  |
-| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Complete Waste`             | Wear a full set of Leather Armor with Netherite Silence Trim on all of them.                                                                                                 |
-| `The Stupidest Armor`        | Wear the `Complete Waste` armor with Protection IV, Unbreaking III, Mending, Curse of Binding and Curse of Vanishing on each of them.                                        |
-| `The Stupidest Tools`        | Have a full set of Wooden Tools with Efficiency V, Unbreaking III Mending and Curse of Vanishing on each of them.                                                            |
-| `Thirsty in Hell`            | Try to use a water bucket in the Nether.                                                                                                                                     |
-| `Was that a Firework ?`      | Die by an entity when you're above Y : 319                                                                                                                                   |
-| `*chuckles* I'm in danger !` | Break a Netherite Sword while fighting a Warden                                                                                                                              |
-| `Give me that back !`        | Kill a Wither Skeleton with full Protection IV, Unbreaking III and Mending Diamond armor as well as an Unbreaking III, Mending, Sharpness V and Fire aspect II Diamond sword |
-| `Really Thirsty`             | You really tried to use a Water Bucket in EVERY Nether Biomes...                                                                                                             |
-| `Shocking Demise`            | Did you at least get the mob head ?                                                                                                                                          |
-| `Bling Bling`                | Place the same Armor (`The Stupidest Armor`) on an Armor Stand... Hope you did not actually wear it.                                                                         |
-| `Is that a player ?`         | Place on an Armor Stand : a Player Head, 3 Pieces of Netherite Armor, a Netherite Sword and a Shield ?                                                                       |
+| Pusha's Adventure              | Description                                                                                                                                                                  |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Complete Waste`               | Wear a full set of Leather Armor with Netherite Silence Trim on all of them.                                                                                                 |
+| `The Stupidest Armor`          | Wear the `Complete Waste` armor with Protection IV, Unbreaking III, Mending, Curse of Binding and Curse of Vanishing on each of them.                                        |
+| `The Stupidest Tools`          | Have a full set of Wooden Tools with Efficiency V, Unbreaking III Mending and Curse of Vanishing on each of them.                                                            |
+| `Thirsty in Hell`              | Try to use a water bucket in the Nether.                                                                                                                                     |
+| `Was that a Firework ?`        | Die by an entity when you're above Y : 319                                                                                                                                   |
+| `*chuckles* I'm in danger !`   | Break a Netherite Sword while fighting a Warden                                                                                                                              |
+| `Give me that back !`          | Kill a Wither Skeleton with full Protection IV, Unbreaking III and Mending Diamond armor as well as an Unbreaking III, Mending, Sharpness V and Fire aspect II Diamond sword |
+| `Really Thirsty`               | You really tried to use a Water Bucket in EVERY Nether Biomes...                                                                                                             |
+| `Shocking Demise`              | Did you at least get the mob head ?                                                                                                                                          |
+| `Bling Bling`                  | Place the same Armor (`The Stupidest Armor`) on an Armor Stand... Hope you did not actually wear it.                                                                         |
+| `Is that a player ?`           | Place on an Armor Stand : a Player Head, 3 Pieces of Netherite Armor, a Netherite Sword and a Shield ?                                                                       |
+| `That's gonna last 2 hours...` | Hold a Shulker Box that is completely filled with Redstone Blocks knowing your friend will spend it all.                                                                     |
 
 | TMJ's Advancement                | Description                                                                                                                       |
 | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
