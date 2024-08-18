@@ -7,7 +7,7 @@
 		"frame": "goal",
 		"description": {
 			"color": "#353839",
-			"translate": "Obtain a stack of dragon eggs"
+			"translate": "Obtain a stack of Dragon Eggs"
 		},
 		"announce_to_chat": true,
 		"hidden": false

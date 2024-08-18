@@ -9,7 +9,7 @@
 		},
 		"description": {
 			"color": "green",
-			"translate": "Break a netherite sword while fighting a warden"
+			"translate": "Break a Netherite Sword while fighting a Warden"
 		},
 		"announce_to_chat": true,
 		"frame": "goal"

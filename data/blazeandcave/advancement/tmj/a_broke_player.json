@@ -12,7 +12,7 @@
     },
     "description": {
       "color": "#0A494F",
-      "translate": "Kill a warden with nothing in your inventory, including armor slots and offhand"
+      "translate": "Kill a Warden with nothing in your inventory, including armor slots and offhand"
     },
     "announce_to_chat": true
   },
