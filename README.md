@@ -12,30 +12,31 @@ This addon extends the functionality of the BlazeandCaves Advancements Pack by i
 
 | Pusha's Adventure              | Description                                                                                                                                                                  |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Complete Waste`               | Wear a full set of Leather Armor with Netherite Silence Trim on all of them.                                                                                                 |
-| `The Stupidest Armor`          | Wear the `Complete Waste` armor with Protection IV, Unbreaking III, Mending, Curse of Binding and Curse of Vanishing on each of them.                                        |
+| `Complete Waste of Diamonds`   | Wear a full set of Leather Armor with Netherite Silence Trim on all of them.                                                                                                 |
 | `The Stupidest Tools`          | Have a full set of Wooden Tools with Efficiency V, Unbreaking III Mending and Curse of Vanishing on each of them.                                                            |
-| `Thirsty in Hell`              | Try to use a water bucket in the Nether.                                                                                                                                     |
+| `The Stupidest Armor`          | Wear the `Complete Waste of Diamonds` armor with Protection IV, Unbreaking III, Mending, Curse of Binding and Curse of Vanishing on each of them.                            |
+| `Bling Bling`                  | Place the same Armor (`The Stupidest Armor`) on an Armor Stand... Hope you did not actually wear it.                                                                         |
 | `Was that a Firework ?`        | Die by an entity when you're above Y : 319                                                                                                                                   |
+| `Shocking Demise`              | Did you at least get the mob head ?                                                                                                                                          |
+| `Is that a player ?`           | Place on an Armor Stand : a Player Head, 3 Pieces of Netherite Armor, a Netherite Sword and a Shield ?                                                                       |
+| `Thirsty in Hell`              | Try to use a water bucket in the Nether.                                                                                                                                     |
+| `Really Thirsty`               | You really tried to use a Water Bucket in EVERY Nether Biomes...                                                                                                             |
+| `That's gonna last 2 hours...` | Hold a Shulker Box that is completely filled with Redstone Blocks knowing your friend will spend it all.                                                                     |
+| `Farlands Time`                | Hold a Shulker Box that is completely filled with Unbreaking III, Mending Elytras                                                                                            |
+| `You got coconut malled !`     | Get killed by a Zombie holding Cocoa beans because there is no Coconut in the game (yet)                                                                                     |
 | `*chuckles* I'm in danger !`   | Break a Netherite Sword while fighting a Warden                                                                                                                              |
 | `Give me that back !`          | Kill a Wither Skeleton with full Protection IV, Unbreaking III and Mending Diamond armor as well as an Unbreaking III, Mending, Sharpness V and Fire aspect II Diamond sword |
-| `Really Thirsty`               | You really tried to use a Water Bucket in EVERY Nether Biomes...                                                                                                             |
-| `Shocking Demise`              | Did you at least get the mob head ?                                                                                                                                          |
-| `Bling Bling`                  | Place the same Armor (`The Stupidest Armor`) on an Armor Stand... Hope you did not actually wear it.                                                                         |
-| `Is that a player ?`           | Place on an Armor Stand : a Player Head, 3 Pieces of Netherite Armor, a Netherite Sword and a Shield ?                                                                       |
-| `That's gonna last 2 hours...` | Hold a Shulker Box that is completely filled with Redstone Blocks knowing your friend will spend it all.                                                                     |
-| `You got coconut malled !`     | Get killed by a Zombie holding Cocoa beans because there is no Coconut in the game (yet)                                                                                     |
 
-| TMJ's Advancement                | Description                                                                                                                       |
-| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| `A Brave Player`                 | Kill a Warden with... Your hand ?                                                                                                 |
-| `A Broke Player`                 | Kill a Warden (again) with Nothing in your Inventory, Armor and OffHand.                                                          |
-| `Destroyer of Worlds`            | Kill a Wither in every Dimension. This one's a warm up.                                                                           |
-| `Elder Guardian of Dimenensions` | Kill an Elder Guardian in every Dimensions.                                                                                       |
-| `The rarest item`                | Obtain a stack of Dragon Egg                                                                                                      |
-| `Warden Explorer`                | Kill a Warden in every Dimensions. Now it's getting though.                                                                       |
-| `You can start Crying now`       | Kill an Ender Dragon in every Dimensions. You may want to open YouTube for that one.                                              |
-| `This can't be that Hard...`     | Kill a Warden, an Ender Dragon, a Wither, an Elder Guardian and a Ghast with a single arrow in the Nether, above the height limit |
+| TMJ's Advancement                | Description                                                                                                                                                 |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `A Brave Player`                 | Kill a Warden with... Your hand ?                                                                                                                           |
+| `A Broke Player`                 | Kill a Warden (again) with Nothing in your Inventory, Armor and OffHand.                                                                                    |
+| `Destroyer of Worlds`            | Kill a Wither in every Dimension. This one's a warm up.                                                                                                     |
+| `Elder Guardian of Dimenensions` | Kill an Elder Guardian in every Dimensions.                                                                                                                 |
+| `Warden Explorer`                | Kill a Warden in every Dimensions. Now it's getting though.                                                                                                 |
+| `You can start Crying now`       | Kill an Ender Dragon in every Dimensions. You may want to open YouTube for that one.                                                                        |
+| `This can't be that Hard...`     | Kill a Warden, an Ender Dragon, a Wither, an Elder Guardian and a Ghast with a single arrow in the Nether, above the height limit (`Currently not working`) |
+| `The rarest item`                | Obtain a stack of Dragon Egg                                                                                                                                |
 
 ## Installation
 

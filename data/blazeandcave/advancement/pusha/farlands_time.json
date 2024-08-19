@@ -1,0 +1,438 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gray_shulker_box"
+    },
+    "title": { "translate": "Farlands Time" },
+    "description": {
+      "translate": "Hold a Shulker Box that is completely filled with Unbreaking III, Mending Elytras"
+    },
+    "announce_to_chat": true,
+    "frame": "goal"
+  },
+  "parent": "blazeandcave:pusha/thats_gonna_last_2_hours",
+  "rewards": {
+    "function": "bc_rewards:pusha/farlands_time"
+  },
+  "criteria": {
+    "redstone_box": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:shulker_boxes",
+            "components": {
+              "minecraft:container": [
+                {
+                  "slot": 0,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 1,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 2,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 3,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 4,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 5,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 6,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 7,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 8,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 9,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 10,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 11,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 12,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 13,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 14,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 15,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 16,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 17,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 18,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 19,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 20,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 21,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 22,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 23,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 24,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 25,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                },
+                {
+                  "slot": 26,
+                  "item": {
+                    "components": {
+                      "minecraft:enchantments": {
+                        "levels": {
+                          "minecraft:mending": 1,
+                          "minecraft:unbreaking": 3
+                        }
+                      }
+                    },
+                    "count": 1,
+                    "id": "minecraft:elytra"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

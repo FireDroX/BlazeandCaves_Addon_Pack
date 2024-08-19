@@ -186,6 +186,19 @@
           }
         }
       }
+    },
+    "farlands_time": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:pusha/farlands_time": true
+            }
+          }
+        }
+      }
     }
   }
 }
