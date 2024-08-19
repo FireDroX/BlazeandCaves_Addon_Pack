@@ -14,7 +14,7 @@
 		"announce_to_chat": true,
 		"frame": "goal"
 	},
-	"parent": "blazeandcave:pusha/root",
+	"parent": "blazeandcave:pusha/you_got_coconut_malled",
 	"rewards": {
 		"function": "bc_rewards:pusha/chuckles_im_in_danger"
 	},		

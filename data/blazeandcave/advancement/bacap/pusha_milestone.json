@@ -173,6 +173,19 @@
           }
         }
       }
+    },
+    "you_got_coconut_malled": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "blazeandcave:pusha/you_got_coconut_malled": true
+            }
+          }
+        }
+      }
     }
   }
 }

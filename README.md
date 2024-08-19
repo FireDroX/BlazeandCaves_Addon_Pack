@@ -24,6 +24,7 @@ This addon extends the functionality of the BlazeandCaves Advancements Pack by i
 | `Bling Bling`                  | Place the same Armor (`The Stupidest Armor`) on an Armor Stand... Hope you did not actually wear it.                                                                         |
 | `Is that a player ?`           | Place on an Armor Stand : a Player Head, 3 Pieces of Netherite Armor, a Netherite Sword and a Shield ?                                                                       |
 | `That's gonna last 2 hours...` | Hold a Shulker Box that is completely filled with Redstone Blocks knowing your friend will spend it all.                                                                     |
+| `You got coconut malled !`     | Get killed by a Zombie holding Cocoa beans because there is no Coconut in the game (yet)                                                                                     |
 
 | TMJ's Advancement                | Description                                                                                                                       |
 | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
@@ -47,7 +48,7 @@ To use this addon, follow these steps:
 
    - Copy the contents of the `data/` folder from this addon.
    - Paste them into the `data/` folder of your BlazeandCaves Advancements Pack installation.
-   - Make sure not to overwrite any existing files unless explicitly desired.
+   - Make sure not to overwrite any existing files unless updated addon files.
 
 4. **Load the World**: Launch your Minecraft world with the modified pack. The new advancements and features should now be available.
 

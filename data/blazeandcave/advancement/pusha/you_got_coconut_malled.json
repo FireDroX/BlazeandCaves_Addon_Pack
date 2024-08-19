@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "coconut_malled": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+          "equipment": {
+            "mainhand": {
+              "items": ["minecraft:cocoa_beans"]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bc_rewards:pusha/you_got_coconut_malled"
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:cocoa_beans",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "translate": "You got coconut malled !"
+    },
+    "description": {
+      "color": "#B9F2FF",
+      "translate": "Get killed by a Zombie holding Cocoa beans because there is no Coconut in the game (yet)"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:pusha/root"
+}
