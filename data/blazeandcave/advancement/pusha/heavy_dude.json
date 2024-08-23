@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heavy_core"
+    },
+    "title": { "translate": "Heavy dude" },
+    "description": {
+      "color": "green",
+      "translate": "Get in a Boat with a heavy dude (Zombie with Turtle Helm and Heavy core in hand)"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "blazeandcave:pusha/you_got_coconut_malled",
+  "rewards": {
+    "function": "bc_rewards:pusha/heavy_dude"
+  },
+  "criteria": {
+    "ride_a_boat_with_a_goat": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:boat",
+                "passenger": {
+                  "type": "minecraft:zombie",
+                  "equipment": {
+                    "mainhand": {
+                      "items": ["minecraft:heavy_core"]
+                    },
+                    "head": {
+                      "items": ["minecraft:turtle_helmet"]
+                    }
+                  }
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  }
+}

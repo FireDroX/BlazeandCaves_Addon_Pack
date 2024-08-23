@@ -24,6 +24,7 @@ This addon extends the functionality of the BlazeandCaves Advancements Pack by i
 | `That's gonna last 2 hours...` | Hold a Shulker Box that is completely filled with Redstone Blocks knowing your friend will spend it all.                                                                     |
 | `Farlands Time`                | Hold a Shulker Box that is completely filled with Unbreaking III, Mending Elytras                                                                                            |
 | `You got coconut malled !`     | Get killed by a Zombie holding Cocoa beans because there is no Coconut in the game (yet)                                                                                     |
+| `Heavy dude`                   | Get in a Boat with a heavy dude (Zombie with Turtle Helm and Heavy core in hand)                                                                                             |
 | `*chuckles* I'm in danger !`   | Break a Netherite Sword while fighting a Warden                                                                                                                              |
 | `Give me that back !`          | Kill a Wither Skeleton with full Protection IV, Unbreaking III and Mending Diamond armor as well as an Unbreaking III, Mending, Sharpness V and Fire aspect II Diamond sword |
 
